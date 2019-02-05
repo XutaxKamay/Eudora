@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\W_KamayAssist\CPP\Console.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\DefineExternVariables.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\FileSystem.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\PCH.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\Process.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\SigScanning.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\Utils.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\VirtualMemory.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Detour\Hooking.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="W_KamayAssist">
+      <UniqueIdentifier>{fdd1300e-5193-4d98-8d03-b082a64ad70f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="W_KamayAssist\HXX">
+      <UniqueIdentifier>{387b762f-f8bf-4170-9ffb-18f5c8a863d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="W_KamayAssist\CPP">
+      <UniqueIdentifier>{e3a6fa3a-3f92-4fc0-bc49-e8f011b3cb95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooking">
+      <UniqueIdentifier>{e2d6a094-4969-48d3-a037-cd62e94bed86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\W_KamayAssist\HXX\Console.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\FileSystem.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\Includes.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\Lib.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\Process.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\SigScanning.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\Utils.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\VirtualMemory.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Detour\Hooking.hxx">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

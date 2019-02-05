@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Detour\Hooking.cpp" />
+    <ClCompile Include="..\Shared\Compressor.cpp" />
+    <ClCompile Include="..\Shared\Socket.cpp" />
+    <ClCompile Include="..\W_KamayAssist\CPP\Console.cpp" />
+    <ClCompile Include="..\W_KamayAssist\CPP\DefineExternVariables.cpp" />
+    <ClCompile Include="..\W_KamayAssist\CPP\FileSystem.cpp" />
+    <ClCompile Include="..\W_KamayAssist\CPP\PCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\Process.cpp" />
+    <ClCompile Include="..\W_KamayAssist\CPP\SigScanning.cpp" />
+    <ClCompile Include="..\W_KamayAssist\CPP\Utils.cpp" />
+    <ClCompile Include="..\W_KamayAssist\CPP\VirtualMemory.cpp" />
+    <ClCompile Include="Backtrack.cpp" />
+    <ClCompile Include="BitBuf.cpp" />
+    <ClCompile Include="Hack_Menu.cpp" />
+    <ClCompile Include="Hack_Server.cpp" />
+    <ClCompile Include="MD5_Valve.cpp" />
+    <ClCompile Include="new_FileValidForTransfer.cpp" />
+    <ClCompile Include="new_SceneEnd.cpp" />
+    <ClCompile Include="ValveMemory.cpp" />
+    <ClCompile Include="MovementRecorder.cpp" />
+    <ClCompile Include="new_DrawModelExecute.cpp" />
+    <ClCompile Include="new_SendNetMsg.cpp" />
+    <ClCompile Include="new_WriteUserCmdDeltaBuffer.cpp" />
+    <ClCompile Include="UserCommands.cpp" />
+    <ClCompile Include="ConVar.cpp" />
+    <ClCompile Include="CRC32.cpp" />
+    <ClCompile Include="Hack_Prediction.cpp" />
+    <ClCompile Include="KeyValues.cpp" />
+    <ClCompile Include="Materials.cpp" />
+    <ClCompile Include="MeshBuilder.cpp" />
+    <ClCompile Include="new_InputStuffs.cpp" />
+    <ClCompile Include="new_C_BaseAnimating_SetupBones.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="GlobalsVars.cpp" />
+    <ClCompile Include="Hack_ConVar.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Hooks.cpp" />
+    <ClCompile Include="Interfaces.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Mathematics.cpp" />
+    <ClCompile Include="new_BaseInterpolate1.cpp" />
+    <ClCompile Include="new_FrameStageNotify.cpp" />
+    <ClCompile Include="new_CUserCmd_OverLoadedEqual.cpp" />
+    <ClCompile Include="new_GetUserCmd.cpp" />
+    <ClCompile Include="new_InterpolateServerEntities.cpp" />
+    <ClCompile Include="new_PaintTraverse.cpp" />
+    <ClCompile Include="new_DoPostScreenSpaceEffects.cpp" />
+    <ClCompile Include="new_Prediction.cpp" />
+    <ClCompile Include="new_StartLagCompensation.cpp" />
+    <ClCompile Include="OffsetManager.cpp" />
+    <ClCompile Include="RenderUtils.cpp" />
+    <ClCompile Include="RoutineHack.cpp" />
+    <ClCompile Include="UtlBuffer.cpp" />
+    <ClCompile Include="UtlString.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Detour\Hooking.hxx" />
+    <ClInclude Include="..\W_KamayAssist\HXX\Console.hxx" />
+    <ClInclude Include="..\W_KamayAssist\HXX\FileSystem.hxx" />
+    <ClInclude Include="..\W_KamayAssist\HXX\Includes.hxx" />
+    <ClInclude Include="..\W_KamayAssist\HXX\Lib.hxx" />
+    <ClInclude Include="..\W_KamayAssist\HXX\Process.hxx" />
+    <ClInclude Include="..\W_KamayAssist\HXX\SigScanning.hxx" />
+    <ClInclude Include="..\W_KamayAssist\HXX\Utils.hxx" />
+    <ClInclude Include="..\W_KamayAssist\HXX\VirtualMemory.hxx" />
+    <ClInclude Include="Backtrack.hxx" />
+    <ClInclude Include="ClientDLL.hxx" />
+    <ClInclude Include="Color.hxx" />
+    <ClInclude Include="FileSystem.hxx" />
+    <ClInclude Include="Hack_LagServer.hxx" />
+    <ClInclude Include="Hack_Menu.hxx" />
+    <ClInclude Include="MD5.hxx" />
+    <ClInclude Include="MDLCache.hxx" />
+    <ClInclude Include="MovementRecorder.hxx" />
+    <ClInclude Include="Panel.hxx" />
+    <ClInclude Include="UserCommands.hxx" />
+    <ClInclude Include="ConVar.hxx" />
+    <ClInclude Include="CRC32.hxx" />
+    <ClInclude Include="DebugOverlay.hxx" />
+    <ClInclude Include="Engine.hxx" />
+    <ClInclude Include="GlobalsVars.hxx" />
+    <ClInclude Include="Entity.hxx" />
+    <ClInclude Include="Hack_ConVar.hxx" />
+    <ClInclude Include="Hack_Prediction.hxx" />
+    <ClInclude Include="Hooks.hxx" />
+    <ClInclude Include="Input.hxx" />
+    <ClInclude Include="Interfaces.hxx" />
+    <ClInclude Include="KeyValues.hxx" />
+    <ClInclude Include="Main.hxx" />
+    <ClInclude Include="Materials.hxx" />
+    <ClInclude Include="MaterialSystem.hxx" />
+    <ClInclude Include="Mathematics.hxx" />
+    <ClInclude Include="MeshBuilder.hxx" />
+    <ClInclude Include="ModelInfo.hxx" />
+    <ClInclude Include="ModelRender.hxx" />
+    <ClInclude Include="OffsetManager.hxx" />
+    <ClInclude Include="Prediction.hxx" />
+    <ClInclude Include="RenderUtils.hxx" />
+    <ClInclude Include="RenderView.hxx" />
+    <ClInclude Include="SDK.hxx" />
+    <ClInclude Include="StudioRender.hxx" />
+    <ClInclude Include="UserCmd.hxx" />
+    <ClInclude Include="UtlBuffer.hxx" />
+    <ClInclude Include="UtlMemory.hxx" />
+    <ClInclude Include="UtlString.hxx" />
+    <ClInclude Include="UtlSymbol.hxx" />
+    <ClInclude Include="UtlVector.hxx" />
+    <ClInclude Include="ValveMemory.hxx" />
+    <ClInclude Include="ViewRender.hxx" />
+    <ClInclude Include="Weapon.hxx" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5E531777-4361-482A-9A66-9A558975ABE1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Simple_Injector</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\..\Open Source Library\wxwidgets\include;..\..\Open Source Library\wxwidgets\include\msvc;</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;..\..\Open Source Library\wxwidgets\lib\vc_lib;</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+    <GenerateManifest>true</GenerateManifest>
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\..\Open Source Library\wxwidgets\include;..\..\Open Source Library\wxwidgets\include\msvc;</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;..\..\Open Source Library\wxwidgets\lib\vc_lib;</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <CreateHotpatchableImage>true</CreateHotpatchableImage>
+      <FloatingPointExceptions>true</FloatingPointExceptions>
+      <ExpandAttributedSource>false</ExpandAttributedSource>
+      <AssemblerOutput>All</AssemblerOutput>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <BrowseInformation>true</BrowseInformation>
+      <ShowIncludes>false</ShowIncludes>
+      <UseFullPaths>true</UseFullPaths>
+      <OmitDefaultLibName>false</OmitDefaultLibName>
+      <EnablePREfast>false</EnablePREfast>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <SDLCheck>true</SDLCheck>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>..\Detour;..\Shared;..\PE Reconstructor;..\W_KamayAssist\HXX\;..\..\Open Source Library\cryptopp;</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PreprocessKeepComments>false</PreprocessKeepComments>
+      <ControlFlowGuard>false</ControlFlowGuard>
+      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessorDefinitions>_WINDLL;WIN32;_CRT_SECURE_NO_WARNINGS;CSGODLL;_DEBUG;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <PrecompiledHeaderFile>Includes.hxx</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <EnableModules>false</EnableModules>
+      <AdditionalOptions>/Zc:noexceptTypes- %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>DebugFastLink</GenerateDebugInformation>
+      <UACExecutionLevel>HighestAvailable</UACExecutionLevel>
+      <FullProgramDatabaseFile>true</FullProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapExports>true</MapExports>
+      <AssemblyDebug>true</AssemblyDebug>
+      <RegisterOutput>false</RegisterOutput>
+      <PreventDllBinding>true</PreventDllBinding>
+      <PerUserRedirection>true</PerUserRedirection>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <CreateHotPatchableImage>Enabled</CreateHotPatchableImage>
+      <GenerateWindowsMetadata>true</GenerateWindowsMetadata>
+      <WindowsMetadataLinkDelaySign>true</WindowsMetadataLinkDelaySign>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <SupportUnloadOfDelayLoadedDLL>true</SupportUnloadOfDelayLoadedDLL>
+      <SupportNobindOfDelayLoadedDLL>true</SupportNobindOfDelayLoadedDLL>
+      <AdditionalDependencies>fwpuclnt.lib;Ws2_32.lib;legacy_stdio_definitions.lib;wldap32.lib;Shlwapi.lib;Dbghelp.lib;Comctl32.lib;Iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <CLRSupportLastError>Enabled</CLRSupportLastError>
+      <SetChecksum>false</SetChecksum>
+      <LargeAddressAware>true</LargeAddressAware>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <LinkErrorReporting>PromptImmediately</LinkErrorReporting>
+      <Version>1</Version>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <ProjectReference />
+    <ProjectReference />
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <Manifest>
+      <GenerateCatalogFiles>true</GenerateCatalogFiles>
+      <SuppressDependencyElement>true</SuppressDependencyElement>
+      <GenerateCategoryTags>true</GenerateCategoryTags>
+      <EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
+      <UpdateFileHashes>true</UpdateFileHashes>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <StringPooling>true</StringPooling>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <CreateHotpatchableImage>true</CreateHotpatchableImage>
+      <ExpandAttributedSource>false</ExpandAttributedSource>
+      <AssemblerOutput>NoListing</AssemblerOutput>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <ShowIncludes>false</ShowIncludes>
+      <EnablePREfast>false</EnablePREfast>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\Detour;..\Shared;..\PE Reconstructor;..\W_KamayAssist\HXX\;..\..\Open Source Library\cryptopp;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDLL;WIN32;_CRT_SECURE_NO_WARNINGS;CSGODLL;NDEBUG;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <UseFullPaths>false</UseFullPaths>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <OpenMPSupport>true</OpenMPSupport>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <PrecompiledHeaderFile>Includes.hxx</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <EnableModules>false</EnableModules>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/Zc:noexceptTypes- %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <UACExecutionLevel>HighestAvailable</UACExecutionLevel>
+      <FullProgramDatabaseFile>false</FullProgramDatabaseFile>
+      <GenerateMapFile>false</GenerateMapFile>
+      <MapExports>false</MapExports>
+      <AssemblyDebug>false</AssemblyDebug>
+      <RegisterOutput>false</RegisterOutput>
+      <PreventDllBinding>true</PreventDllBinding>
+      <PerUserRedirection>true</PerUserRedirection>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <CreateHotPatchableImage>Enabled</CreateHotPatchableImage>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+      <WindowsMetadataLinkDelaySign>false</WindowsMetadataLinkDelaySign>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <FixedBaseAddress>false</FixedBaseAddress>
+      <SupportUnloadOfDelayLoadedDLL>true</SupportUnloadOfDelayLoadedDLL>
+      <ImageHasSafeExceptionHandlers>true</ImageHasSafeExceptionHandlers>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkStatus>false</LinkStatus>
+      <SetChecksum>true</SetChecksum>
+      <Version>1</Version>
+      <CLRSupportLastError>Disabled</CLRSupportLastError>
+      <AdditionalDependencies>fwpuclnt.lib;Ws2_32.lib;legacy_stdio_definitions.lib;wldap32.lib;Shlwapi.lib;Dbghelp.lib;Comctl32.lib;Iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+      <SupportNobindOfDelayLoadedDLL>true</SupportNobindOfDelayLoadedDLL>
+      <ImportLibrary />
+      <ProfileGuidedDatabase />
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <LinkErrorReporting>PromptImmediately</LinkErrorReporting>
+    </Link>
+    <ProjectReference />
+    <ProjectReference />
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <Manifest>
+      <GenerateCatalogFiles>false</GenerateCatalogFiles>
+      <SuppressDependencyElement>true</SuppressDependencyElement>
+      <GenerateCategoryTags>false</GenerateCategoryTags>
+      <EnableDpiAwareness>false</EnableDpiAwareness>
+      <UpdateFileHashes>true</UpdateFileHashes>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

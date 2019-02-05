@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CPP">
+      <UniqueIdentifier>{40682104-5f9f-44fa-8867-bcaef9a404cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HXX">
+      <UniqueIdentifier>{08bc1902-0c11-4894-b65a-24a6fc2bc5f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="W_KamayAssist">
+      <UniqueIdentifier>{c26a4df7-6012-4c5e-9ff1-cddb53c89a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="W_KamayAssist\HXX">
+      <UniqueIdentifier>{ef9059fb-e3a7-4685-a09a-a738d17bbea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="W_KamayAssist\CPP">
+      <UniqueIdentifier>{aa58918f-2a7a-4376-a9a0-efaf45d4dfc2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="..\W_KamayAssist\CPP\Console.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\DefineExternVariables.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\FileSystem.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\PCH.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\Process.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\SigScanning.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\Utils.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\VirtualMemory.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\W_KamayAssist\HXX\Console.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\FileSystem.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\Includes.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\Lib.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\Process.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\SigScanning.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\Utils.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\VirtualMemory.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

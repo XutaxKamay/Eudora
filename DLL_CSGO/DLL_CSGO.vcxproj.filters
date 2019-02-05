@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Hack\Hooks\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="OffsetManager.cpp">
+      <Filter>OffsetManager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ConVar.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="new_FrameStageNotify.cpp">
+      <Filter>Hack\Hooks\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC32.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="new_CUserCmd_OverLoadedEqual.cpp">
+      <Filter>Hack\Hooks\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalsVars.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtrack.cpp">
+      <Filter>Hack\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack_ConVar.cpp">
+      <Filter>Hack\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="new_BaseInterpolate1.cpp">
+      <Filter>Hack\Hooks\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="new_PaintTraverse.cpp">
+      <Filter>Hack\Hooks\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="new_InterpolateServerEntities.cpp">
+      <Filter>Hack\Hooks\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="new_C_BaseAnimating_SetupBones.cpp">
+      <Filter>Hack\Hooks\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="new_DoPostScreenSpaceEffects.cpp">
+      <Filter>Hack\Hooks\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials.cpp">
+      <Filter>Hack\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyValues.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshBuilder.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderUtils.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="new_StartLagCompensation.cpp">
+      <Filter>Hack\Hooks\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="new_Prediction.cpp">
+      <Filter>Hack\Hooks\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="new_GetUserCmd.cpp">
+      <Filter>Hack\Hooks\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack_Prediction.cpp">
+      <Filter>Hack\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UserCommands.cpp">
+      <Filter>Hack\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="new_SendNetMsg.cpp">
+      <Filter>Hack\Hooks\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UtlBuffer.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UtlString.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementRecorder.cpp">
+      <Filter>Hack\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="RoutineHack.cpp" />
+    <ClCompile Include="MD5_Valve.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="new_WriteUserCmdDeltaBuffer.cpp">
+      <Filter>Hack\Hooks\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="BitBuf.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="new_DrawModelExecute.cpp">
+      <Filter>Hack\Hooks\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack_Server.cpp">
+      <Filter>Hack\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ValveMemory.cpp">
+      <Filter>SDK\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="new_SceneEnd.cpp">
+      <Filter>Hack\Hooks\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="new_FileValidForTransfer.cpp">
+      <Filter>Hack\Hooks\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack_Menu.cpp">
+      <Filter>Hack\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\Console.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\DefineExternVariables.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\FileSystem.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\Process.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\SigScanning.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\Utils.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\VirtualMemory.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Detour\Hooking.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\PCH.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Socket.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Compressor.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="new_InputStuffs.cpp">
+      <Filter>Hack\Hooks\CPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{a8a61ea1-804e-4a5c-92c3-6bd2bf204e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\H">
+      <UniqueIdentifier>{ae06acec-198b-486a-aa57-179225835725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\CPP">
+      <UniqueIdentifier>{da63999a-2b04-41c0-9017-fb5e99c9cce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OffsetManager">
+      <UniqueIdentifier>{52e45628-834b-40ea-9666-471541cb582c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OffsetManager\H">
+      <UniqueIdentifier>{0ae4411b-17ef-4fb3-99dc-185a00f64813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OffsetManager\CPP">
+      <UniqueIdentifier>{a21ec05f-7247-451d-b8a2-e3b520858173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack">
+      <UniqueIdentifier>{afcceba1-ae3d-48ec-a18c-07c6afe54ca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\CPP">
+      <UniqueIdentifier>{b5bf7000-6e7b-4b88-a7b6-e7820d20cc7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\H">
+      <UniqueIdentifier>{5a98ef57-3e68-48d0-aeef-41824506d302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Hooks">
+      <UniqueIdentifier>{35e15887-e728-410a-8cfa-620de201ce1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Hooks\H">
+      <UniqueIdentifier>{80d3ff87-9390-451a-93c8-832172a50e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Hooks\CPP">
+      <UniqueIdentifier>{c5cc4328-dd72-4830-a28f-b48383a14db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Hooks\CPP\NetVars">
+      <UniqueIdentifier>{52d29281-eb6d-416f-bff5-9466d6185c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="W_KamayAssist">
+      <UniqueIdentifier>{5252a599-1a53-4cfa-b110-9342aaf50ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="W_KamayAssist\HXX">
+      <UniqueIdentifier>{05edcf65-44f5-4d6e-b15f-2a06ffc2e547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="W_KamayAssist\CPP">
+      <UniqueIdentifier>{787de797-7c4a-4112-a297-89dcc72d2020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooking">
+      <UniqueIdentifier>{f7b58c54-e129-4e3a-8d09-4c93b592ec44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{412d6314-ee12-4fff-bfbf-c698278286d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hooks.hxx">
+      <Filter>Hack\Hooks\H</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="OffsetManager.hxx">
+      <Filter>OffsetManager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC32.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="UserCmd.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="ConVar.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalsVars.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveMemory.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientDLL.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Backtrack.hxx">
+      <Filter>Hack\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack_ConVar.hxx">
+      <Filter>Hack\H</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderView.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelInfo.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugOverlay.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialSystem.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelRender.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRender.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials.hxx">
+      <Filter>Hack\H</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyValues.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshBuilder.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderUtils.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="StudioRender.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Prediction.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack_Prediction.hxx">
+      <Filter>Hack\H</Filter>
+    </ClInclude>
+    <ClInclude Include="UserCommands.hxx">
+      <Filter>Hack\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="UtlMemory.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="UtlString.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="UtlVector.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="UtlBuffer.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementRecorder.hxx">
+      <Filter>Hack\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.hxx" />
+    <ClInclude Include="MDLCache.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="UtlSymbol.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack_LagServer.hxx">
+      <Filter>Hack\H</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack_Menu.hxx">
+      <Filter>Hack\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.hxx">
+      <Filter>SDK\H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\Console.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\FileSystem.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\Includes.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\Lib.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\Process.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\SigScanning.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\Utils.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\VirtualMemory.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Detour\Hooking.hxx">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

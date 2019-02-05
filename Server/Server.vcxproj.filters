@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="HXX">
+      <UniqueIdentifier>{85da8076-2e22-48a6-808d-6082c9c3f27d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{57e37038-b73d-4c10-b679-a40ef6be1373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\CPP">
+      <UniqueIdentifier>{3825eeec-86e9-4cd9-89f5-103cde5c99c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\HXX">
+      <UniqueIdentifier>{6f8a967a-eb91-41d1-9500-202465b4ecd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP">
+      <UniqueIdentifier>{9ce663ec-362a-4616-825e-acfcc0bf6c49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="W_KamayAssist">
+      <UniqueIdentifier>{ed43264f-d6b2-4dee-a9b1-770aeca40fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="W_KamayAssist\HXX">
+      <UniqueIdentifier>{4cf74e15-1587-4882-824a-759fe0786c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="W_KamayAssist\CPP">
+      <UniqueIdentifier>{bd599a30-44a1-4b85-a8b8-3b20a6d5e8ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Shared\CPE_Minimal.hxx">
+      <Filter>Shared\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\CPE_Shared.hxx">
+      <Filter>Shared\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PE Reconstructor\CPE.hxx">
+      <Filter>Shared\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="CPE_Server.hxx">
+      <Filter>HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\Console.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\FileSystem.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\Includes.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\Lib.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\Process.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\SigScanning.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\Utils.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\W_KamayAssist\HXX\VirtualMemory.hxx">
+      <Filter>W_KamayAssist\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Socket.hxx">
+      <Filter>Shared\HXX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Compressor.hxx">
+      <Filter>Shared\HXX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Shared\CPE_Minimal.cpp">
+      <Filter>Shared\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\CPE_Shared.cpp">
+      <Filter>Shared\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PE Reconstructor\CPE.cpp">
+      <Filter>Shared\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CPE_Server.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\Console.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\DefineExternVariables.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\FileSystem.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\PCH.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\Process.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\SigScanning.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\Utils.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\W_KamayAssist\CPP\VirtualMemory.cpp">
+      <Filter>W_KamayAssist\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Compressor.cpp">
+      <Filter>Shared\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\SocketClient.cpp">
+      <Filter>Shared\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\SocketServer.cpp">
+      <Filter>Shared\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Socket.cpp">
+      <Filter>Shared\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CPE_MinimalServer.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+</Project>
