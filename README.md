@@ -8,3 +8,4 @@ This contains a manual mapper that supports tls, imports, relocs, and injection 
 
 It has some cheats aswell for NieR Automata and NFS Payback, CS:GO.
 
+The encryption scheme is wrong since the public keys can be intercepted and modified by the attacker.
